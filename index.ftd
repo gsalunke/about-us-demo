@@ -38,8 +38,6 @@ width: fill
 
 --- ftd.text: $title
 
----- container: ftd.main
-
 ---- ftd.row:
 spacing: 5
 width: fill
