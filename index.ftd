@@ -1,23 +1,29 @@
--- directors-shell: Amit Upadhyay
+-- ftd.column:
+spacing: 10
+padding: 10
+width: fill
+
+--- director: Amit Upadhyay
 position: CEO
 image: https://bookface-images.s3.amazonaws.com/avatars/fd5786b8041f77b1b492e2ab89479e6eb02a8ea8.jpg
 
 Amit Upadhyay popularly known as amitu in technology industry. He is IITan from IIT, Mumbai. 
 
--- directors-shell: Dipak Angrula
+--- director: Dipak Angrula
 position: Director
 image: https://bookface-images.s3.amazonaws.com/avatars/ccf52199a3d3c676274ac65dac9151ee3664bc63.jpg
 
 Dipak Angrula is has many years of experience in technology and worked in startups. He lastly
 seen as Vice President of Engg department in Acko Technologies.
 
--- directors-shell: Samir Upadhyay
+--- director: Samir Upadhyay
 position: Director
 image: https://i.imgur.com/7IRQuAL.jpeg
 
 Samir Upadhyay professionly as a medical practitioner. He is individual director in this company
 
--- ftd.row directors-shell:
+
+-- ftd.row director:
 caption title:
 string position:
 body body:
@@ -31,9 +37,6 @@ width: fill
 padding: 10
 margin-bottom: 10
 
---- ftd.column:
-width: 150
-
 --- ftd.image:
 src: $image
 align: left
@@ -44,25 +47,12 @@ min-height: 150
 --- container: ftd.main
 
 --- ftd.column:
-padding: 10
-width: fill
-
----- ftd.row:
-spacing: 5
 width: fill
 
 --- ftd.text: $title
 size: 25
 style: bold
 
----- ftd.row:
-spacing: 5
-width: fill
-
 --- ftd.text: $position
-
----- ftd.row:
-spacing: 5
-width: fill
 
 --- ftd.text: $body
